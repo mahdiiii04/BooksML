@@ -139,9 +139,9 @@ function Main() {
                 Recommended books:
               </h2>
               <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
-                {recommendations.map((book) => (
+                {recommendations.map((book , i) => (
                   <div
-                    key={book.id}
+                    key={i}
                     className="rounded-lg bg-purple-50 p-4 text-center"
                   >
                     <img
